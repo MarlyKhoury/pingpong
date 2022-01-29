@@ -1,16 +1,17 @@
-var counter1=0
-var counter2=0
+var counter1= 0
+var counter2= 0
 
 
 var select = '';
-for (i=3;i<=11;i++){
+for (i=3; i<=11; i++){
     select += '<option val=' + i + '>' + i + '</option>';
 
-document.getElementById('dropdown').innerHTML= select;}
+document.getElementById('dropdown').innerHTML= select;
+}
 
 
 function playerOne(){
-    counter1+=1
+    counter1+= 1
     document.getElementById("score1").innerHTML= counter1 
     if(counter1==document.getElementById('dropdown').value){
         document.getElementById("score1").style.color= "green" 
@@ -23,7 +24,7 @@ function playerOne(){
 
 
 function playerTwo(){
-    counter2+=1
+    counter2+= 1
     document.getElementById("score2").innerHTML= counter2
     if(counter2==document.getElementById('dropdown').value){
         document.getElementById("score2").style.color= "green" 
@@ -35,8 +36,8 @@ function playerTwo(){
 }
 
 function gameReset(){
-    counter1=0
-    counter2=0
+    counter1= 0
+    counter2= 0
     document.getElementById("score1").innerHTML= counter1
     document.getElementById("score2").innerHTML= counter2
     document.getElementsByClassName("btn")[0].disabled= false 

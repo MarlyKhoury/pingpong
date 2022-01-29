@@ -11,37 +11,39 @@
 
     <body>
          
+        
+        
+        <div class="card" style="height: 65rem ;width: 55rem;">
+            <div class="container-fluid">
+                <div class=row>
+                    <div class = "col-md-12 col-lg-12 col-sm-12 img">
+                        <img src="pictures/ping pong.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+            </div>
     <div class= container>
-        <div class="card" style="height: 55rem;width: 55rem;">
-            <img src="pictures/ping pong.jpg" class="card-img-top" alt="...">
+
             <div class="card-body">
-              <h5 class="card-title">Play Ping Pong</h5>
+              <h4 class="card-title"><b>Play Ping Pong</b></h4>
               <hr>
-              <h1 style="display:inline" id= score1>0</h1>
-              <h1 style="display:inline">to</h1>
-              <h1 style="display:inline" id= score2>0</h1>
+              <h1 class="score-1" id= score1> 0 </h1>
+              <h1 class="to"> to </h1>
+              <h1 class="score-2" id= score2> 0 </h1>
               
               <p class="card-text">Play with the buttons below</p>
-              <h2>Maximum Game Score &nbsp;&nbsp;<select id=dropdown></select></h2>
+            </div>
+              <br>
+              <h2 class="max-score"><b>Maximum Game Score</b> &nbsp;&nbsp;<select id=dropdown></select></h2>
+   </div>
+    <div class= container>
         <div class=row>
+            
               <button onclick="playerOne()" type="button" class="btn btn-success btn-lg"><h3>Add Score to Player One</h3></button>
               <button onclick="playerTwo()" type="button" class="btn btn-primary btn-lg"><h3>Add Score to Player Two</h3></button>
               <button onclick="gameReset()" type="button" class="btn btn-danger btn-lg"><h3>Reset</h3></button>
+            
         </div>
-            </div>
-          </div>
-
-
-        
-
-
-
-
-
-
-
-
-    </div>
+    </div>     
         
         <!-- jQuery library -->
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>

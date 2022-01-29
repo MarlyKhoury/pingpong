@@ -11,7 +11,7 @@ for (i=3; i<=11; i++){
 function playerOne(){
     counter1+= 1
     $("#score1").html(counter1) 
-    if(counter1==document.getElementById('dropdown').value){
+    if(counter1==$('#dropdown').val()){
         $("#score1").css("color", "green")
         $("#score2").css("color", "red") 
         $(".btn")[0].disabled= true 
@@ -23,7 +23,7 @@ function playerOne(){
 function playerTwo(){
     counter2+= 1
     $("#score2").html(counter2)
-    if(counter2==document.getElementById('dropdown').value){
+    if(counter2==$('#dropdown').val()){
         $("#score2").css("color", "green")
         $("#score1").css("color", "red")
         $(".btn")[0].disabled= true 

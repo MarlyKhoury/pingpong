@@ -43,7 +43,7 @@ function gameReset(){
     document.getElementsByClassName("btn")[0].disabled= false 
     document.getElementsByClassName("btn")[1].disabled= false 
     document.getElementById("score1").style.color= "black" 
-     document.getElementById("score2").style.color= "black" 
+    document.getElementById("score2").style.color= "black" 
     
     
 }

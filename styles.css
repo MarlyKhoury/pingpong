@@ -1,0 +1,14 @@
+.card{
+    margin:0 auto;
+    margin-top: 50px;
+}
+
+.btn{
+    padding: 28px;
+    margin-top: 40px ;
+} 
+
+ #dropdown{
+    border: 2px solid black;
+    border-radius: 15px;
+} 

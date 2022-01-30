@@ -11,45 +11,37 @@
 
     <body>
                
-        <div class="card" style="height: 65rem ;width: 55rem;">
-            
-            <div class="container-fluid">
-                <div class=row>
-                    <div class = "col-md-12 col-lg-12 col-sm-12 img">
-                        <img src="pictures/ping pong.jpg" class="card-img-top" alt="ping pong picture">
-                    </div>
-                </div>
-            </div>
-        
-    <div class= container>
 
+        <div class="card" style="width: 29rem;">
+            <img src="pictures/ping pong.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h4 class="card-title"><b>Play Ping Pong</b></h4>
+              <p class="card-title card-name"><b>Play Ping Pong</b></p>
               <hr>
-              <h1 class="score-1" id= score1> 0 </h1>
-              <h1 class="to"> to </h1>
-              <h1 class="score-2" id= score2> 0 </h1>
+              <h3 class="score" id= score1> 0 </h3>
+              <h3 class="score"> to </h3>
+              <h3 class="score" id= score2> 0 </h3>
+              <p>Play with the buttons below</p>
+              <p class="align-scoring"><b>Maximum Game Score</b></p>
+              &nbsp;&nbsp;<select class="align-text" id=dropdown></select>
               
-              <p class="card-text">Play with the buttons below</p>
             </div>
-              <br>
-              <h2 class="max-score"><b>Maximum Game Score</b> &nbsp;&nbsp;<select id=dropdown></select></h2>
-
-    </div>
-
-
-    <div class= container>
-        <div class=row>
-            
-              <button onclick="playerOne()" type="button" class="btn btn-success btn-lg"><h3>Add Score to Player One</h3></button>
-              <button onclick="playerTwo()" type="button" class="btn btn-primary btn-lg"><h3>Add Score to Player Two</h3></button>
-              <button onclick="gameReset()" type="button" class="btn btn-danger btn-lg"><h3>Reset</h3></button>
-            
-        </div>
-    </div>    
-
-        </div>  
         
+        <div class="container-fluid">
+            <div class= "row">
+            
+                <button onclick="playerOne()" type="button" class="btn btn-success"><p class="button-style">Add Score to Player One</p></button>
+                <button onclick="playerTwo()" type="button" class="btn btn-primary"><p class="button-style">Add Score to Player Two</p></button>
+                <button onclick="gameReset()" type="button" class="btn btn-danger"><p class="button-style">Reset</p></button>
+            </div>
+
+        </div>
+
+
+        </div>
+
+
+
+
         
         <!-- jQuery library -->
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>

@@ -1,48 +1,47 @@
+         
+
 .card{
     margin:0 auto;
-    margin-top: 18px;
+    margin-top: 20px;
+    
 }
 
-.btn{
-    padding: 28px;
-    margin-top: 67px ;
+.card-name{
+    margin-top:-10px;
+    font-size: small;
+}
+
+
+
+#dropdown{
+    
+    border-radius: 20px;
+    height: 1.6rem;
+    width: 3rem;
+    font-size: 12px;
     
 } 
 
- #dropdown{
-    border: 2px solid black;
-    border-radius: 15px;
-} 
 
-.img{
-    padding:0px;
-}
-
-.max-score{
-    padding-left:20px;
-}
-
-.card-text{
-    font-size: 2rem;
-}
-
-.score-1{
+.score{
     display:inline;
-    font-size: 4rem;
+    
 }
 
-.score-2{
+
+.align-scoring{
     display:inline;
-    font-size: 4rem;
 }
 
-.to{
+
+hr{
+    height:2px;
+    margin-top: -5px;
+}
+
+
+.button-style{
     display:inline;
-    font-size: 4rem;
-    padding-left: 3 px;
 }
 
-.btn-danger{
-    padding-right: 41px;
-}
 
